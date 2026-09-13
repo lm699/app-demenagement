@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1f6feb">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Déménagement — cartons</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Qui êtes-vous ? -->
+<div id="gate">
+  <div class="box">
+    <h1>📦 Déménagement</h1>
+    <p>Qui êtes-vous ?</p>
+    <div class="who" id="whoBtns"></div>
+  </div>
+</div>
+
+<div id="app">
+  <header class="top">
+    <div class="brand"><span class="dot">📦</span> Déménagement</div>
+    <div class="grow"></div>
+    <span class="live" id="live" title="Connexion temps réel"></span>
+    <button class="userchip" id="userChip"></button>
+  </header>
+
+  <nav class="tabs" id="nav"></nav>
+
+  <main id="view"></main>
+</div>
+
+<div id="lightbox"><img alt=""></div>
+<div id="toasts"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>
